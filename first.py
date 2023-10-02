@@ -1,0 +1,2 @@
+omnamasivaya="haraharamahadeva"
+print(omnamasivaya)
