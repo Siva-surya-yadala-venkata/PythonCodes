@@ -4,16 +4,16 @@ number=int(input("Enter the Number to Verify In the Conditions Above "))
 #POSITIVE EVEN OR ODD
 
 #Method 1:
-if(number > 0): #Positive Form
+if number > 0: #Positive Form
     print("The Number is",number,"Positive")
-    if(number % 2==0):
+    if number % 2==0:
         print("The Number is",number,"is Positive Even")
     else:
         print("The Number is Positive but",number," is Positive odd")
 #For Positive Even and Positive Odd
-elif(number < 0):#For Negative Form
+elif number < 0:#For Negative Form
     print("The Number You entered",number,"is Negative")
-    if(number %2 == 0):
+    if number %2 == 0:
         print("The Number You Entered is",number,"Negative Even")
     else:
         print("The Number You Entered is",number,"is Negative Odd")
