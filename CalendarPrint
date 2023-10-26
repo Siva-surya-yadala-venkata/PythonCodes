@@ -1,3 +1,4 @@
 from calendar import *
 year = int(input("Enter the Year :"))
 print(calendar(year))
+#Run in Google Collab or Jupityer NoteBook For The Results Due to it should import the library calendar into the code
